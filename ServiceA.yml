@@ -1,1 +1,8 @@
+server:
+  port: 8090
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
 greeting: Hello from Service A, with @RefreshScope one more chnaged
